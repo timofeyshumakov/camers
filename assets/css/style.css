@@ -179,6 +179,9 @@
 
 .footer__popup-container {
     background: #fff;
+    -webkit-transform: translate(0, 20000px);
+    -ms-transform: translate(0, 20000px);
+    transform: translate(0, 20000px);
 }
 
 #footerPopupTitle {
