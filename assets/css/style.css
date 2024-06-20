@@ -105,9 +105,9 @@
     display: -ms-flexbox !important;
     display: flex !important;
     position: fixed !important;
-    -webkit-transform: translateX(19rem) !important;
-    -ms-transform: translateX(19rem) !important;
-    transform: translateX(19rem) !important;
+    -webkit-transform: translateY(19rem) !important;
+    -ms-transform: translateY(19rem) !important;
+    transform: translateY(19rem) !important;
     width: 100vw;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -280,6 +280,7 @@ body {
     font: 600 16px/1.5 OpenSans, sans-serif;
     color: #000000;
     scroll-behavior: smooth;
+    overflow-x: hidden;
     background: #fff;
 }
 
@@ -742,6 +743,8 @@ li a:after {
 
 .about {
     padding: 8.5rem 0 3.7rem;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .about__container {
@@ -1467,7 +1470,7 @@ input::placeholder {
     }
 
     .about__block:nth-child(2) .aboutBlock__title {
-        margin-top: 2rem;
+        margin-top: 2.5rem;
     }
 
     .about__block:nth-child(2) .aboutBlock__content {
@@ -1760,6 +1763,9 @@ input::placeholder {
 
     .about__block:nth-child(4) {
         margin-top: 23.5rem;
+        -webkit-transform: translate(4.5rem, -2.5rem);
+        -ms-transform: translate(4.5rem, -2.5rem);
+        transform: translate(4.5rem, -2.5rem);
     }
 
     .about__block:nth-child(4) .aboutBlock__content {
