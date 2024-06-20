@@ -2053,15 +2053,6 @@ input::placeholder {
         display: none;
     }
 
-    .header__action {
-        -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
-        transform: translate(0, 0);
-        right: 2rem;
-        position: absolute;
-        display: none;
-    }
-
     .header__logo {
         width: 6rem;
     }
@@ -2071,8 +2062,11 @@ input::placeholder {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
         overflow: hidden;
-        min-height: 5rem;
+        min-height: 10rem;
         padding: 0.5rem;
     }
 
@@ -2145,6 +2139,18 @@ input::placeholder {
     .footerPopup__title {
         margin-top: 3rem;
         max-width: 400px;
+    }
+
+    .header__action {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+        right: 5rem;
+        bottom: 2rem;
+        width: 220px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 }
 
@@ -2274,13 +2280,6 @@ input::placeholder {
 
     input {
         text-align: center;
-    }
-
-    .header__action {
-        -webkit-transform: translate(33%, 270%);
-        -ms-transform: translate(33%, 270%);
-        transform: translate(33%, 270%);
-        right: 5rem;
     }
 
     .header__logo {
